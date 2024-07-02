@@ -39,7 +39,7 @@ Follow these steps to get your development environment set up:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/bulk-sms-imei-search.git
+   git remote add origin https://github.com/djmomen/Bulk-SMS-and-IMEI-Search-System-for-onomondo.git
    ```
 
 2. Navigate to the project directory:

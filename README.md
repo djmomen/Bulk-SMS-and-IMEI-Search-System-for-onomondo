@@ -44,7 +44,7 @@ Follow these steps to get your development environment set up:
 
 2. Navigate to the project directory:
    ```
-   cd bulk-sms-imei-search
+   cd <directory>
    ```
 
 3. Install PHP dependencies using Composer:

@@ -46,7 +46,7 @@ function searchImei($imei) {
         'follow_redirects' => TRUE
     ));
     $request->setHeader(array(
-        'Authorization' => 'onok_bb984a2f.eivalZ+OxzyHjJRpDCHCnT6bDSybafVm7cbXXh6W15Zff4HIZDHc6Z1K'
+        'Authorization' => '<API KEY>'
     ));
 
     try {
@@ -76,7 +76,7 @@ function retrieveAllSimCards() {
         $request->setUrl($url);
         $request->setMethod(HTTP_Request2::METHOD_GET);
         $request->setHeader(array(
-            'Authorization' => 'onok_bb984a2f.eivalZ+OxzyHjJRpDCHCnT6bDSybafVm7cbXXh6W15Zff4HIZDHc6Z1K'
+            'Authorization' => '<API KEY>'
         ));
 
         try {

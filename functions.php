@@ -17,7 +17,7 @@ function sendSingleSMS($simId, $fromField, $messageText) {
         'timeout' => 30 // Increase timeout for potentially slow API responses
     ));
     $request->setHeader(array(
-        'Authorization' => 'onok_bb984a2f.eivalZ+OxzyHjJRpDCHCnT6bDSybafVm7cbXXh6W15Zff4HIZDHc6Z1K',
+        'Authorization' => '<API KEY>',
         'Content-Type' => 'application/json'
     ));
     $request->setBody(json_encode([
